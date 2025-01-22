@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+    <form action="index.php" method="post">
+        <br>
+        <br>
+
+
+     
+        <input type="text" id="Email & Phone Number" placeholder="Email & Phone Number">
+        <br>
+        <input type="checkbox" id="Save this information for next time">
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="text" id="First Name" placeholder="First Name"> <input type="text" id="Last Name" placeholder="Last Name">
+        <br>
+        <input type="text" id="Address" placeholder="Address">
+        <br>
+        <input type="text" id="Apartment, Suites, etc (optional)" placeholder="Apartment, Suites, etc (optional)">
+        <br>
+        <input type="text" id="City" placeholder="City"> <input type="text" id="State" placeholder="State"> <input type="text" id="Postal Code (Optional)" placeholder="Postal Code (Optional)">
+        <br>
+        <input type="number" id="Phone Number" placeholder="081-448-74441" pattern="{0-9}">
+        <br>
+        <input type="checkbox" id="Save this information for next time" placeholder="Save this information for next time">
+        
+
+
+
+    </form>
+
+
+
+</body>
+</html>

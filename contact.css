@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Navigation */
+
+header{
+    background-color: white;
+}
+
+.welcome-note{
+    height: 35px;
+}
+
+.welcome-note p{
+    margin-left: 550px;
+    margin-top: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.nav-bar img{
+    width: 120px;
+}
+
+.search{
+    padding: 20px;
+    width: 10px;
+    height: 5px;
+    /* margin-left: 200px; */
+    
+}
+
+.nav-bar div{
+    margin-right: 100px;
+
+}
+
+.icon img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.navigation{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.nav-menu{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    margin-right: 20px;
+    color: rgb(181, 181, 181);
+    font-size: 18px;
+}
+
+.nav-menu a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    /* background-color: green; */
+}
+
+
+.content img{
+    width: 1300px;
+    height: 500px;
+}
+/* Contact-form Page */
+
+.contact{
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.contact-info{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.contact-info h1{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.subinformation{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-left: 200px;
+}
+.subinformation img{
+    width: 40px;
+    height: 50px;
+    padding-top: 50px;
+
+}
+.subinformation p{
+    padding-top: 50px;
+}
+
+.green-button{
+    background-color: rgb(37, 219, 37);
+    /* width: 150px; */
+    right: 100px;
+    bottom: 70px;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.green-button p{
+    margin-top: 20px;
+}
+
+.green-button img{
+    width: 80px;
+}
