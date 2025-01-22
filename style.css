@@ -19,6 +19,7 @@ header{
 
 .welcome-note{
     height: 35px;
+    letter-spacing: 1px;
 }
 
 .welcome-note p{
@@ -40,12 +41,10 @@ header{
     width: 120px;
 }
 
-input{
+.search{
     padding: 20px;
     width: 10px;
     height: 5px;
-    /* margin-left: 200px; */
-    
 }
 
 .nav-bar div{
@@ -81,15 +80,23 @@ input{
     text-decoration: underline;
 }
 
-.content{
-    /* background-color: green; */
-}
 
+
+
+
+
+
+
+/* Container */
+.content{
+}
 
 .content img{
     width: 1300px;
     height: 500px;
 }
+
+
 
 .shop{
     /* background-color: red; */
@@ -127,6 +134,7 @@ input{
     /* background-color: whitesmoke; */
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .arrow button{
@@ -134,9 +142,14 @@ input{
     padding: 5px 10px;
     border: none;
     background-color: white;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(190, 188, 188);
-    /* background-color: whitesmoke; */
+    
+}
+
+
+.arrow button:hover{
+    border: 1px black solid;
 }
 
 .arrow p{
@@ -279,6 +292,8 @@ input{
     margin-top: 30px;
     background-color: black;
     margin-left: 120px;
+    padding: 10px 0px;
+    padding-left: 20px;
 }
 
 .subscription input::placeholder{
@@ -309,4 +324,22 @@ input{
 .tiktok{
     
 }
-/* Contact Page */
+
+.green-button{
+    background-color: rgb(37, 219, 37);
+    /* width: 150px; */
+    right: 100px;
+    bottom: 70px;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.green-button p{
+    margin-top: 20px;
+}
+
+.green-button img{
+    width: 80px;
+}
