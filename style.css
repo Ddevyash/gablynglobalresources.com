@@ -80,6 +80,19 @@ header{
     text-decoration: underline;
 }
 
+.hamburger{
+    display: none;
+}
+
+.cancel{
+    display: none;
+}
+
+.nav-bar .cancel{
+    width: 50px;
+    /* display: none; */
+}
+
 
 
 
@@ -342,4 +355,400 @@ header{
 
 .green-button img{
     width: 80px;
+}
+
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width:414px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    /* Navigation */
+    
+    header{
+        background-color: white;
+        position: fixed;
+        width: 500px;
+        z-index: 1;
+    }
+    
+    .welcome-note{
+        height: 35px;
+        letter-spacing: 1px;
+    }
+    
+    .welcome-note p{
+        margin-left: 95px;
+        margin-top: 10px;
+        font-family: 'roboto', sans-serif;
+    }
+    
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding-left: 100px;
+        background-color: black;
+        padding-right: 0px;
+        position: fixed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 1;
+    }
+    
+    .nav-bar img{
+        width: 180px;
+        padding-left: 30px;
+    }
+    
+    .search{
+        padding: 20px;
+        width: 10px;
+        height: 5px;
+        display: none;
+    }
+    
+    .nav-bar div{
+        margin-right: 100px;
+    
+    }
+
+    .icon{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 0px;
+        margin-right: 50px;
+        
+    }
+    
+    .icon img{
+        width: 20px;
+        margin-right: 50px;
+        /* position: absolute; */
+        /* right: 100px; */
+
+    }
+    
+    .navigation{
+        background-color: black;
+        padding-bottom: 20px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    
+    .nav-menu{
+        margin-top: 30px;
+        margin-left: 50px;
+        display: none;
+        background-color: green;
+        position: absolute;
+        top: 0px;
+    }
+    
+    .nav-menu a{
+        color: white;
+        text-decoration: none;
+        font-family: 'roboto', sans-serif;
+        margin-right: 20px;
+        color: rgb(181, 181, 181);
+        font-size: 18px;
+    }
+    
+    .nav-menu a:hover{
+        text-decoration: underline;
+    }
+
+    .hamburger{
+        display: block;
+        margin-right: 50px;
+    }
+
+    .nav-bar .hamburger{
+        width: 68px;
+        margin-left: -80px;
+    }
+
+    .nav-bar .cancel{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Container */
+    
+    .content{
+    }
+    
+    .content img{
+        width: 420px;
+        height: 420px;
+    }
+    
+    
+    
+    .shop{
+        /* background-color: red; */
+        position: absolute;
+        right: 0px;
+        font-family: 'roboto', sans-serif;
+        position: absolute;
+        top: 400px;
+        right: 380px;
+        color: white;
+    }
+    
+    .shop h2{
+        padding-left: 40px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    
+    .shop p{
+        padding-left: 80px;
+    }
+    
+    .shop button{
+        padding: 15px 30px;
+        border-radius: 3px;
+        margin-left: 210px;
+        margin-top: 20px;
+        border: none;
+    
+    }
+    
+    .arrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .arrow button{
+        margin-right: 5px;
+        padding: 5px 10px;
+        border: none;
+        background-color: white;
+        font-size: 20px;
+        color: rgb(190, 188, 188);
+        
+    }
+    
+    
+    .arrow button:hover{
+        border: 1px black solid;
+    }
+    
+    .arrow p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .controls{
+        font-size: 15px !important;
+    }
+    
+    .collection{
+        padding-top: 80px;
+    }
+    
+    .collection h1{
+        padding-left: 100px;
+        font-family: 'roboto', sans-serif;
+        font-weight: normal;
+        font-size: 40px;
+        
+    }
+    
+    .store{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+        padding-right: 20px;
+        margin-top: 100px;
+    }
+    
+    .store h3{
+        font-size: 20px;
+        font-weight: normal;
+        font-family: 'roboto', sans-serif;
+        color: black;
+        padding-left: 70px;
+        padding-bottom: 80px;
+    }
+    
+    .store img{
+        width: 300px;
+        margin-bottom: 10px;
+        clip-path: circle();
+    }
+    
+    .store img:hover{
+        width: 310px;
+        transition: 0.5s;
+    }
+    
+    .store a{
+        text-decoration: none;
+    }
+    
+    .extension{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 100px;
+    }
+    
+    
+    .extension img{
+        width: 600px;
+    }
+    
+    .extension-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 50px;
+    }
+    
+    .extension-two img{
+        width: 500px;
+        padding-top: 100px;
+        margin-left: 100px;
+        border-radius: 50px;
+    }
+    
+    .extension-note{
+        font-family: 'roboto', sans-serif;
+        padding-left: 100px;
+        padding-top: 230px;
+    }   
+    
+    .extension-note h2{
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    
+    .extension-note p{
+        width: 500px;
+        line-height: 25px;
+        font-weight: normal;
+        color: rgb(75, 75, 75);
+    }
+    
+    .extension-note button{
+        border: none;
+        padding: 18px 30px;
+        border-radius: 5px;
+        background-color: black;
+        color: wheat;
+        margin-top: 25px;
+        width: 150px;
+        font-weight: bold;
+    }
+    
+    .subscription{
+        background-color: black;
+        color: white;
+        font-family: 'roboto', sans-serif;
+        padding-left: 340px;
+        padding-top: 70px;
+        /* position: relative; */
+    }
+    
+    
+    .subscription h2{
+        font-weight: normal;
+        margin-bottom: 20px;
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding-left: 50px;
+    }
+    
+    .subscription p{
+        color: rgb(190, 190, 190);
+        font-size: 18px;
+        padding-left: 25px;
+        letter-spacing: 1px;
+    
+    }
+    
+    .subscription input{
+        width: 290px;
+        border: 2px solid rgb(173, 171, 171);
+        margin-top: 30px;
+        background-color: black;
+        margin-left: 120px;
+        padding: 10px 0px;
+        padding-left: 20px;
+    }
+    
+    .subscription input::placeholder{
+        color: rgb(220, 220, 220);
+        font-size: 15px;
+        font-family: 'roboto' sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    
+    .copyright{
+        font-size: 12px !important;
+        margin-top: 250px;
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+    
+    .social{
+        position: absolute;
+        bottom: 130px;
+        left: 600px;
+    }
+    
+    .social img{
+        width: 30px;
+    }
+    
+    .tiktok{
+        
+    }
+    
+    .green-button{
+        background-color: rgb(37, 219, 37);
+        /* width: 150px; */
+        right: 100px;
+        bottom: 70px;
+        display: flex;
+        padding: 10px;
+        border-radius: 20px;
+        position: fixed;
+    }
+    
+    .green-button p{
+        margin-top: 20px;
+    }
+    
+    .green-button img{
+        width: 80px;
+    }
+    
 }
