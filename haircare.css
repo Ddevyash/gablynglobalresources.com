@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Navigation */
+
+header{
+    background-color: white;
+}
+
+.welcome-note{
+    height: 35px;
+    letter-spacing: 1px;
+}
+
+.welcome-note p{
+    margin-left: 550px;
+    margin-top: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.nav-bar img{
+    width: 120px;
+}
+
+.search{
+    padding: 20px;
+    width: 10px;
+    height: 5px;
+}
+
+.nav-bar div{
+    margin-right: 100px;
+
+}
+
+.icon img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.navigation{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.nav-menu{
+    margin-top: 30px;
+    margin-left: 320px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    margin-right: 20px;
+    color: rgb(181, 181, 181);
+    font-size: 18px;
+}
+
+.nav-menu a:hover{
+    text-decoration: underline;
+}
+
+/* Container */
+
+.page-title{
+    heigh: 200px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'roboto', sans-serif;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.page-title h2{
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+.slide{
+    /* background-color: green;    */
+}
+
+.slide img{
+    width: 270px;
+    border-radius: 10px;
+}
+
+.slide p{
+    font-family: 'inter', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(149, 147, 147);
+    margin-top: 5px;
+
+}
+
+.slide h3{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(52, 52, 52);
+    margin-bottom: 10px;
+}
+
+.slide h2{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(52, 52, 52);
+    padding-bottom: 15px;
+}
+
+.slide button{
+    padding: 15px 40px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    width: 265px;
+    border: 1.5px solid black;
+    cursor: pointer;
+    background-color: transparent;
+
+
+}
+
+
+
+.slide button:hover{
+    background-color: grey;
+    border: none;
+    transition: 1.3s;
+
+}
+
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.arrow button{
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(190, 188, 188);
+}
+
+
+.arrow button:hover{
+    border: 1px black solid;
+}
+
+.arrow p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subscription{
+    background-color: black;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    padding-left: 340px;
+    padding-top: 70px;
+    /* position: relative; */
+}
+
+
+.subscription h2{
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+
+.subscription p{
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+
+}
+
+.subscription input{
+    width: 290px;
+    border: 2px solid rgb(173, 171, 171);
+    margin-top: 30px;
+    background-color: black;
+    margin-left: 120px;
+    padding: 10px 0px;
+    padding-left: 20px;
+}
+
+.subscription input::placeholder{
+    color: rgb(220, 220, 220);
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.copyright{
+    font-size: 12px !important;
+    margin-top: 250px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.social{
+    position: absolute;
+    bottom: 130px;
+    left: 600px;
+}
+
+.social img{
+    width: 30px;
+}
+
+.green-button{
+    background-color: rgb(37, 219, 37);
+    /* width: 150px; */
+    right: 100px;
+    bottom: 70px;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.green-button p{
+    margin-top: 20px;
+}
+
+.green-button img{
+    width: 80px;
+}
+
+
