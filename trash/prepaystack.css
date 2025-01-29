@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Navigation */
+
+header{
+    background-color: white;
+}
+
+.welcome-note{
+    height: 35px;
+    letter-spacing: 1px;
+}
+
+.welcome-note p{
+    margin-left: 550px;
+    margin-top: 10px;
+    font-family: 'roboto', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.nav-bar img{
+    width: 120px;
+}
+
+.search{
+    padding: 20px;
+    width: 10px;
+    height: 5px;
+}
+
+.nav-bar div{
+    margin-right: 100px;
+
+}
+
+.icon img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.navigation{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.nav-menu{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    margin-right: 20px;
+    color: rgb(181, 181, 181);
+    font-size: 18px;
+}
+
+.nav-menu a:hover{
+    text-decoration: underline;
+}
+
+.hamburger{
+    display: none;
+}
+
+.cancel{
+    display: none;
+}
+
+.nav-bar .cancel{
+    width: 50px;
+    /* display: none; */
+}
+
+
+
+/* Container */
+
+.prepaystack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+    margin-top: 100px;
+
+}
+
+.card{
+    margin-top: 50px;
+    padding-left: 100px;
+    
+}
+
+.card h2{
+    font-family: 'roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.mail{
+    width: 400px;
+
+}
+
+.Address{
+    width: 400px;
+
+}
+
+.phone{
+    width: 400px;
+}
+
+.submit{
+    width: 430px;
+    padding-left: 120px;
+    padding: 10px;
+
+}
+
+.apartment{
+    width: 400px;
+
+}
+
+.line{
+    height: 0.5px;
+    background-color: gray;
+    margin-bottom: 10px;
+    width: 430px;
+}
+
+.copyright{
+    color: rgb(167, 164, 164);
+    font-size: 13px;
+    margin-bottom: 50px;
+    font-family: 'roboto', sans-serif;
+}
+
+select{
+    width: 424px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.paystack{
+    padding-top: 20px;
+}
+
+.paystack h2{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.paystack p{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: grey;
+}
+
+
+.paystack-card{
+
+}
+
+.icon-note{
+    display: flex;
+    border: 0.5px solid blue;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #F0F5FF;
+}
+
+.icon-note p{
+    margin-top: 15px;
+    padding-left: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.icon{
+    margin-left: 300px;
+}
+
+.icon svg{
+    width: 30px;
+}
+
+.icon .creditt{
+    font-size: 20px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.icon .creditt2{
+    font-size: 20px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.pay-now{
+    /* height: 200px; */
+    background-color: rgb(228, 228, 228);
+    background-color: rgb(152, 152, 152);
+    border-radius: 0px 0px 5px 5px;
+    opacity: 0.1;
+ 
+}
+
+.pay-now img{
+    width: 200px;
+    padding-left: 200px;
+}
+
+.pay-text{
+    color: black;
+}
+
+button{
+    background-color: #1773B0;
+    width: 605px;
+    padding: 20px;
+    margin-bottom: 70px;
+    padding-right: 50px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: #0a5588;
+    transition: 0.5s;
+}

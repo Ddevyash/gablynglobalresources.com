@@ -64,7 +64,7 @@ header{
 
 .nav-menu{
     margin-top: 30px;
-    margin-left: 320px;
+    margin-left: 250px;
 }
 
 .nav-menu a{
@@ -98,48 +98,103 @@ header{
     font-size: 40px;
 }
 
-.collection{
-    padding-top: 20px;
-}
-
-.collection h1{
-    padding-left: 100px;
-    font-family: 'roboto', sans-serif;
-    font-weight: normal;
-    font-size: 40px;
-    
-}
-
-.store{
+.products{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* padding-left: 50px; */
-    margin-left: 100px;
-    padding-right: 20px;
-    margin-top: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
 }
 
-.store h3{
-    font-size: 20px;
-    font-weight: normal;
+.slide{
+    /* background-color: green;    */
+}
+
+.slide img{
+    width: 270px;
+    border-radius: 10px;
+}
+
+.slide p{
+    font-family: 'inter', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(149, 147, 147);
+    margin-top: 5px;
+
+}
+
+.slide h3{
     font-family: 'roboto', sans-serif;
-    color: black;
-    padding-left: 70px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(52, 52, 52);
+    margin-bottom: 10px;
 }
 
-.store img{
-    width: 300px;
-    margin-bottom: 50px;
-    clip-path: circle();
+.slide h2{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(52, 52, 52);
+    padding-bottom: 15px;
 }
 
-.store img:hover{
-    width: 310px;
-    transition: 0.5s;
+.slide button{
+    padding: 15px 40px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    width: 265px;
+    border: 1.5px solid black;
+    cursor: pointer;
+    background-color: transparent;
+
+
 }
 
-.store a{
-    text-decoration: none;
+
+
+.slide button:hover{
+    background-color: grey;
+    border: none;
+    transition: 1.3s;
+
+}
+
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.arrow button{
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(190, 188, 188);
+}
+
+
+.arrow button:hover{
+    border: 1px black solid;
+}
+
+.arrow p{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .subscription{
@@ -148,7 +203,7 @@ header{
     font-family: 'roboto', sans-serif;
     padding-left: 340px;
     padding-top: 70px;
-    margin-top: 40px;
+    /* position: relative; */
 }
 
 
@@ -203,7 +258,6 @@ header{
     width: 30px;
 }
 
-
 .green-button{
     background-color: rgb(37, 219, 37);
     /* width: 150px; */
@@ -222,3 +276,5 @@ header{
 .green-button img{
     width: 80px;
 }
+
+
