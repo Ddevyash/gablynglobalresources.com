@@ -116,7 +116,7 @@ header{
     right: 0px;
     font-family: 'roboto', sans-serif;
     position: absolute;
-    top: 400px;
+    top: 350px;
     right: 380px;
     color: white;
 }
@@ -271,6 +271,9 @@ header{
     width: 150px;
     font-weight: bold;
 }
+
+
+/* Footer */
 
 .subscription{
     background-color: black;
