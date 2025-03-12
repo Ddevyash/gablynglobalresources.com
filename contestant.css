@@ -21,7 +21,6 @@ header{
 
 .welcome-note{
     height: 35px;
-    letter-spacing: 1px;
 }
 
 .welcome-note p{
@@ -47,6 +46,8 @@ header{
     padding: 20px;
     width: 10px;
     height: 5px;
+    /* margin-left: 200px; */
+    
 }
 
 .nav-bar div{
@@ -84,67 +85,131 @@ header{
     text-decoration: underline;
 }
 
-/* Container */
+.content{
+    /* background-color: green; */
+}
 
-.page-title{
-    heigh: 200px;
-    background-color: black;
-    color: whitesmoke;
+
+.content img{
+    width: 1300px;
+    height: 500px;
+}
+
+
+
+
+/* Container*/
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-family: 'roboto', sans-serif;
-    padding-top: 60px;
-    padding-left: 70px;
-    padding-bottom: 30px;
 }
 
-.page-title h2{
-    font-weight: normal;
-    letter-spacing: 1px;
-    font-size: 40px;
-}
-
-.collection{
+.contact-form{
+    background-color: rgb(228, 204, 251);
+    padding-bottom: 50px;
     padding-top: 20px;
 }
 
-.collection h1{
-    padding-left: 100px;
-    font-family: 'roboto', sans-serif;
-    font-weight: normal;
-    font-size: 40px;
-    
+.contact-form h2{
+    padding-left: 50px;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
-.store{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* padding-left: 50px; */
-    margin-left: 100px;
-    padding-right: 20px;
-    margin-top: 70px;
+.contact-info{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
 }
 
-.store h3{
-    font-size: 20px;
-    font-weight: normal;
-    font-family: 'roboto', sans-serif;
+.contact-info h2{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+input{
+    padding: 10px 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: solid 2px black;
+    border-width: 0px 0px 2px 0px;
+}
+
+input::placeholder{
     color: black;
-    padding-left: 70px;
 }
 
-.store img{
-    width: 300px;
-    margin-bottom: 50px;
-    clip-path: circle();
+input:focus{
+    outline: none;
 }
 
-.store img:hover{
-    width: 310px;
-    transition: 0.5s;
+input:focus::placeholder{
+    visibility: hidden;
 }
 
-.store a{
-    text-decoration: none;
+textarea{
+    padding: 0px 20px;
+    width: 480px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: solid 2px black;
+    border-width: 0px 0px 2px 0px;
 }
+
+textarea::placeholder{
+    color: black;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+
+.subinformation{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-left: 120px;
+}
+.subinformation img{
+    width: 40px;
+    height: 50px;
+    padding-top: 30px;
+
+}
+.subinformation p{
+    padding-top: 50px;
+}
+
+button{
+    padding: 10px 50px;
+    margin-left: 410px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 0.6;
+    transition: 0.7s;
+}
+
+
+
+/* Footer */
 
 .subscription{
     background-color: black;
@@ -152,7 +217,7 @@ header{
     font-family: 'roboto', sans-serif;
     padding-left: 340px;
     padding-top: 70px;
-    margin-top: 40px;
+    /* position: relative; */
 }
 
 
@@ -207,22 +272,25 @@ header{
     width: 30px;
 }
 
-
-.green-button{
-    background-color: rgb(37, 219, 37);
-    /* width: 150px; */
-    right: 100px;
-    bottom: 70px;
-    display: flex;
-    padding: 10px;
-    border-radius: 20px;
-    position: fixed;
+.tiktok{
+    
 }
 
-.green-button p{
-    margin-top: 20px;
+
+
+label{
+    margin-left: 50px;
+
 }
 
-.green-button img{
-    width: 80px;
+.account-details{
+    background-color: wheat;
+    width: 250px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.account-details pre{
+    margin-left:-120px !important;
+
 }
